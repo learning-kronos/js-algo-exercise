@@ -599,6 +599,6 @@ let num1 = parseInt(document.querySelector('#num1').value);
 
 <br>
 
-**＜期待結果＞**　※1、2、3、4、-5 を入力して計算ボタンを押した場合
+**＜期待結果＞**　※1、2、3、4、-5 を入力して評価ボタンを押した場合
 
 <img src="./img/ex-34.png" width="600">
