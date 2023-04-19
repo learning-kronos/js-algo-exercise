@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Algorithm</title>
+  <script type="text/javascript">
+    let arrayA = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3];
+    let arrayB = [3, 2, 4, 1, 5, 8, 2, 6, 5, 1];
+    let count = 0;
+
+    for (let i = 0; i < arrayA.length; i++) {
+      if (arrayA[i] != arrayB[i]) {
+        count++;
+      }
+    }
+
+    console.log('不一致の数 = ' + count);
+  </script>
+</head>
+<body>
+</body>
+</html>

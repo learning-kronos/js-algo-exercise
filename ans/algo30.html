@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Algorithm</title>
+  <script type="text/javascript">
+    // 要素が9個の配列を作成する
+    let steps = Array(9);
+
+    for (let i = 1; i <= 9; i++) {
+      for (let j = 1; j <= 9; j++) {
+        steps[j - 1] = i * j;
+      }
+      console.log(steps);
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Algorithm</title>
+  <script type="text/javascript">
+    let stars = "";
+
+    for (let i = 1; i <= 5; i++) {
+      stars = "";
+      for (let j = 1; j <= 5 - i; j++) {
+        stars = stars + "　";   // stars += "　";
+      }
+      for (let j = 1; j <= i; j++) {
+        stars = stars + "★";   // stars += "★";
+      }
+      console.log(stars);
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>

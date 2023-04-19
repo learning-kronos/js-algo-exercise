@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Algorithm</title>
+  <script type="text/javascript">
+    let array = [1, 7, 3, 2, 0, 5];
+    let shift = 2;
+
+    console.log('シフト前 = ' + array);
+
+    for (let i = array.length - shift - 1; i >= 0; i--) {
+      array[i + shift] = array[i];
+    }
+
+    for (let i = 0; i < shift; i++) {
+      array[i] = 0;
+    }
+
+    console.log('シフト後 = ' + array);
+  </script>
+</head>
+<body>
+</body>
+</html>
