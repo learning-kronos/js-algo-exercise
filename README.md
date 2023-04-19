@@ -443,31 +443,162 @@ DOMを使ってアルゴリズムに取り組みます。console.log関数を使
 
 ### 演習31（algo31.html）
 
-1 ～ 10 までの数字をコンソールに出力してください。ただし、console.log関数の使用は1回のみとします。
+テキストボックスに点数を入力し、80点以上は「優」、50点以上80点未満は「良」、30点以上50点未満は「可」、30点未満の結果をコンソールに出力してください。
 
 <br>
 
-**algo01.html**
+**algo31.html**
 
 ```html
 <!DOCTYPE html>
 <html lang="jp">
-    <head>
-        <meta charset="UTF-8">
-        <title>JavaScript Algorithm</title>
-        <script type="text/javascript">
-            // 処理
-        </script>
-    </head>
-    <body>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Algorithm</title>
+  <script type="text/javascript">
+    function judgement() {
+      // 処理
+    }
+  </script>
+</head>
+<body>
+  <form>
+    <div>
+      <label for="score">点数：</label>
+      <input type="number" id="score" value="0" min="0" max="100">
+    </div><br>
+    <button type="button" onclick="???">判定</button>
+  </form>
+</body>
 </html>
 ```
 
 <br>
 
-**＜期待結果＞**
+**＜期待結果＞**　※テキストボックスに80を入力して判定ボタンを押した場合
 
-<img src="./img/ex-01.png" width="400">
+<img src="./img/ex-31.png" width="600">
 
 <br>
+
+### 演習32（algo32.html）
+
+2つのテキストボックスに数値（正の整数）を入力し、四則演算の加算を使⽤して数値の乗算を求めてコンソールに表示してください。乗算の演算⼦は⽤いないものとします。
+
+<br>
+
+**algo32.html**
+
+```html
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Algorithm</title>
+  <style type="text/css">
+    input[type="number"] {
+      width: 80px;
+      text-align: right;
+    }
+    #answer {
+      color: #FF0000;
+    }
+  </style>
+  <script type="text/javascript">
+    function calc() {
+      // 処理
+    }
+  </script>
+</head>
+<body>
+  <form>
+    <div>
+      <input type="number" id="num1" value="0" min="0">　×　
+      <input type="number" id="num2" value="0" min="0">　＝　
+      <span id="answer"></span>
+    </div><br>
+    <button type="button" onclick="calc()">計算</button>
+  </form>
+</body>
+</html>
+```
+
+テキストボックスの入力値で四則演算をするときは、parseInt関数で整数型に変換する必要があります。
+
+```javascript
+let num1 = parseInt(document.querySelector('#num1').value);
+```
+
+<br>
+
+**＜期待結果＞**　※5 と 3 を入力して計算ボタンを押した場合
+
+<img src="./img/ex-32.png" width="600">
+
+<br><br>
+
+### 演習33（algo32.html）
+
+演習32で、計算の結果をコンソールではなく、id="answer" の spanタグに出力（表示）してください。
+
+<br>
+
+**＜期待結果＞**　※5 と 3 を入力して計算ボタンを押した場合
+
+<img src="./img/ex-33.png" width="350">
+
+<br><br>
+
+### 演習34（algo34.html）
+
+5つのテキストボックスに数値を入力し、その中に1つでも負の数があれば "-1"、すべてが正の数なら "+1" をアラートで表示してください。
+
+<br>
+
+**algo34.html**
+
+```html
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Algorithm</title>
+  <script type="text/javascript">
+    function evaluation() {
+      // 処理
+    }
+  </script>
+</head>
+<body>
+  <form>
+    <div>
+      <label>整数1：</label>
+      <input type="number" class="number" value="0">
+    </div>
+    <div>
+      <label>整数2：</label>
+      <input type="number" class="number" value="0">
+    </div>
+    <div>
+      <label>整数3：</label>
+      <input type="number" class="number" value="0">
+    </div>
+    <div>
+      <label>整数4：</label>
+      <input type="number" class="number" value="0">
+    </div>
+    <div>
+      <label>整数5：</label>
+      <input type="number" class="number" value="0">
+    </div><br>
+    <button type="button" onclick="evaluation()">評価</button>
+  </form>
+</body>
+</html>
+```
+
+<br>
+
+**＜期待結果＞**　※1、2、3、4、-5 を入力して計算ボタンを押した場合
+
+<img src="./img/ex-34.png" width="600">

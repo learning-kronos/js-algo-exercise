@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Algorithm</title>
+  <style type="text/css">
+    input[type="number"] {
+      width: 80px;
+      text-align: right;
+    }
+    #answer {
+      color: #FF0000;
+    }
+  </style>
+  <script type="text/javascript">
+    function calc() {
+      let result = 0;
+      let num1 = parseInt(document.querySelector('#num1').value);
+      let num2 =  parseInt(document.querySelector('#num2').value);
+      for (let i = 1; i <= num2; i++) {
+        result = result + num1;
+      }
+
+      console.log(result);
+    }
+  </script>
+</head>
+<body>
+  <form>
+    <div>
+      <input type="number" id="num1" value="0" min="0">　×　
+      <input type="number" id="num2" value="0" min="0">　＝　
+      <span id="answer"></span>
+    </div><br>
+    <button type="button" onclick="calc()">計算</button>
+  </form>
+</body>
+</html>
