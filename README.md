@@ -39,7 +39,11 @@
 
 <img src="./img/ex-01.png" width="400">
 
-<br>
+<br><br>
+
+[解答例](./ans/algo01.html)
+
+<br><br>
 
 ### 演習2（algo02.html）
 
@@ -51,7 +55,11 @@
 
 <img src="./img/ex-02.png" width="400">
 
-<br>
+<br><br>
+
+[解答例](./ans/algo02.html)
+
+<br><br>
 
 ### 演習3（algo03.html）
 
@@ -62,6 +70,10 @@
 **＜期待結果＞**
 
 <img src="./img/ex-03.png" width="400">
+
+<br><br>
+
+[解答例](./ans/algo03.html)
 
 <br>
 
@@ -75,7 +87,11 @@
 
 <img src="./img/ex-04.png" width="400">
 
-<br>
+<br><br>
+
+[解答例](./ans/algo04.html)
+
+<br><br>
 
 ### 演習5（algo05.html）
 
@@ -87,7 +103,11 @@
 
 <img src="./img/ex-05.png" width="400">
 
-<br>
+<br><br>
+
+[解答例](./ans/algo05.html)
+
+<br><br>
 
 ### 演習6（algo06.html）
 
@@ -99,7 +119,11 @@
 
 <img src="./img/ex-06.png" width="400">
 
-<br>
+<br><br>
+
+[解答例](./ans/algo06.html)
+
+<br><br>
 
 ### 演習7（algo07.html）
 
@@ -111,7 +135,11 @@
 
 <img src="./img/ex-07.png" width="400">
 
-<br>
+<br><br>
+
+[解答例](./ans/algo07.html)
+
+<br><br>
 
 ### 演習8（algo08.html）
 
@@ -123,7 +151,11 @@
 
 <img src="./img/ex-08.png" width="400">
 
-<br>
+<br><br>
+
+[解答例](./ans/algo08.html)
+
+<br><br>
 
 ### 演習9（algo09.html）
 
@@ -135,7 +167,7 @@
 
 <img src="./img/ex-09.png" width="400">
 
-<br>
+<br><br>
 
 ### 演習10（algo10.html）
 
@@ -147,7 +179,7 @@
 
 <img src="./img/ex-10.png" width="400">
 
-<br>
+<br><br>
 
 ### 演習11（algo11.html）
 
@@ -159,7 +191,7 @@
 
 <img src="./img/ex-11.png" width="400">
 
-<br>
+<br><br>
 
 ### 演習12（algo12.html）
 
@@ -171,7 +203,7 @@
 
 <img src="./img/ex-12.png" width="400">
 
-<br>
+<br><br>
 
 ### 演習13（algo13.html）
 
@@ -183,7 +215,7 @@
 
 <img src="./img/ex-13.png" width="400">
 
-<br>
+<br><br>
 
 ### 演習14（algo14.html）
 
@@ -195,7 +227,7 @@
 
 <img src="./img/ex-14.png" width="400">
 
-<br>
+<br><br>
 
 ### 演習15（algo15.html）
 
@@ -207,7 +239,7 @@
 
 <img src="./img/ex-15.png" width="400">
 
-<br>
+<br><br>
 
 ### 演習16（algo16.html）
 
@@ -219,7 +251,7 @@
 
 <img src="./img/ex-16.png" width="400">
 
-<br>
+<br><br>
 
 ### 演習17（algo17.html）
 
@@ -231,7 +263,7 @@
 
 <img src="./img/ex-17.png" width="400">
 
-<br>
+<br><br>
 
 ### 演習18（algo18.html）
 
@@ -243,7 +275,7 @@
 
 <img src="./img/ex-18.png" width="400">
 
-<br>
+<br><br>
 
 ### 演習19（algo19.html）
 
@@ -279,7 +311,7 @@
 
 > 3行表示はされていませんが、❸が"★★★★★"を3回表示していることを表しています。
 
-<br>
+<br><br>
 
 ### 演習20（algo20.html）
 
@@ -291,7 +323,7 @@
 
 <img src="./img/ex-20.png" width="400">
 
-<br>
+<br><br>
 
 ### 演習21（algo21.html）
 
@@ -303,7 +335,7 @@
 
 <img src="./img/ex-21.png" width="400">
 
-<br>
+<br><br>
 
 ### 演習22（algo22.html）
 
@@ -315,7 +347,7 @@
 
 <img src="./img/ex-22.png" width="400">
 
-<br>
+<br><br>
 
 ### 演習23（algo23.html）
 
@@ -327,7 +359,7 @@
 
 <img src="./img/ex-23.png" width="400">
 
-<br>
+<br><br>
 
 ### 演習24（algo24.html）
 
@@ -339,7 +371,7 @@
 
 <img src="./img/ex-24.png" width="400">
 
-<br>
+<br><br>
 
 ### 演習25（algo25.html）
 
@@ -353,7 +385,7 @@
 
 > 配列をそのまま表示することができます。
 
-<br>
+<br><br>
 
 ### 演習26（algo26.html）
 
@@ -367,7 +399,7 @@
 
 <img src="./img/ex-26_2.png" width="400">
 
-<br>
+<br><br>
 
 ### 演習27（algo27.html）
 
@@ -381,7 +413,7 @@
 
 <img src="./img/ex-27_2.png" width="400">
 
-<br>
+<br><br>
 
 ### 演習28（algo28.html）
 
@@ -401,7 +433,7 @@ let array = ["H", "e", "l", "l", "o", "@", , , , ,];
 
 <img src="./img/ex-28_2.png" width="400">
 
-<br>
+<br><br>
 
 ### 演習29（algo29.html）
 
@@ -413,7 +445,7 @@ let array = ["H", "e", "l", "l", "o", "@", , , , ,];
 
 <img src="./img/ex-29.png" width="400">
 
-<br>
+<br><br>
 
 ### 演習30（algo30.html）
 
@@ -439,7 +471,7 @@ let steps = Array(9);
 
 DOMを使ってアルゴリズムに取り組みます。
 
-<br>
+<br><br>
 
 ### 演習31（algo31.html）
 
@@ -479,7 +511,7 @@ DOMを使ってアルゴリズムに取り組みます。
 
 <img src="./img/ex-31.png" width="600">
 
-<br>
+<br><br>
 
 ### 演習32（algo32.html）
 
