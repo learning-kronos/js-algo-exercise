@@ -83,6 +83,14 @@
 
 <br>
 
+**＜初期値＞**
+
+- 変数x = 10
+- 変数y = 20
+- 変数z = 30
+
+<br>
+
 **＜期待結果＞**
 
 <img src="./img/ex-04.png" width="400">
@@ -634,3 +642,48 @@ let num1 = parseInt(document.querySelector('#num1').value);
 **＜期待結果＞**　※1、2、3、4、-5 を入力して評価ボタンを押した場合
 
 <img src="./img/ex-34.png" width="600">
+
+<br><br>
+
+### 演習35（algo35.html）
+
+テキストボックスにフルーツ名を入力し追加ボタンを押したら、フルーツ一覧（ulタグ）に入力したフルーツ名を追加表示してください。フルーツ名が未入力の場合は一覧に追加しません。
+
+<br>
+
+**algo35.html**
+
+```html
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Algorithm</title>
+  <script type="text/javascript">
+    function addFruit() {
+      // 処理
+    }
+  </script>
+</head>
+<body>
+  <h2>フルーツ一覧</h2>
+  <ul id="fruits-list">
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Cherry</li>
+  </ul>
+  <form>
+    <input type="text" id="fruit">
+    <button type="button" onclick="addFruit()">追加</button>
+  </form>
+</body>
+</html>
+```
+
+<br>
+
+**＜期待結果＞**　※1、2、3、4、-5 を入力して評価ボタンを押した場合
+
+<img src="./img/ex-35.png" width="600">
+
+<br><br>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Algorithm</title>
+  <script type="text/javascript">
+    function addFruit() {
+      let fruit = document.querySelector('#fruit');
+      let fruitsList = document.querySelector('#fruits-list');
+
+      if (fruit.value != '') {
+        fruitsList.innerHTML += '<li>' + fruit.value + '</li>';
+        fruit.value = '';
+      }
+    }
+  </script>
+</head>
+<body>
+  <h2>フルーツ一覧</h2>
+  <ul id="fruits-list">
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Cherry</li>
+  </ul>
+  <form>
+    <input type="text" id="fruit">
+    <button type="button" onclick="addFruit()">追加</button>
+  </form>
+</body>
+</html>
