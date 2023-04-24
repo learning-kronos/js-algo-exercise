@@ -25,8 +25,12 @@
         result = result + num1;   // result += num1;
       }
 
-      // id="answer"の要素に結果を追加する
       const answer = document.querySelector('#answer');
+      
+      // class属性に"text-red"を設定する
+      answer.setAttribute('class', 'text-red');
+      /* answer.className = 'text-red'; */
+
       answer.innerHTML = result;
     }
   </script>

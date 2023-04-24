@@ -8,17 +8,21 @@
       width: 80px;
       text-align: right;
     }
-    #answer {
+
+    .text-red {
       color: #FF0000;
     }
   </style>
   <script type="text/javascript">
     function calc() {
       let result = 0;
-      let num1 = parseInt(document.querySelector('#num1').value);
-      let num2 =  parseInt(document.querySelector('#num2').value);
+      const objNum1 = document.querySelector('#num1');
+      const objNum2 =  document.querySelector('#num2');
+      const num1 = parseInt(objNum1.value);
+      const num2 = parseInt(objNum2.value);
+      
       for (let i = 1; i <= num2; i++) {
-        result = result + num1;
+        result = result + num1;   // result += num1;
       }
 
       console.log(result);

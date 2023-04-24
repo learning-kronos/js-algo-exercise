@@ -689,13 +689,29 @@ let num1 = parseInt(document.querySelector('#num1').value);
 
 <br><br>
 
-### 演習34（algo34.html）
+### 演習34（algo32.html）
+
+演習33で、id="answer" の spanタグの class属性に "text-red" を設定し、スタイルシート（赤文字化）を適用してください。
+
+<br>
+
+**＜期待結果＞**　※5 と 3 を入力して計算ボタンを押した場合
+
+<img src="./img/ex-34.png" width="350">
+
+<br><br>
+
+[解答例](./ans/32_3.html)
+
+<br><br>
+
+### 演習35（algo35.html）
 
 5つのテキストボックスに数値を入力し、その中に1つでも負の数があれば "-1"、すべてが正の数なら "+1" をアラートで表示してください。
 
 <br>
 
-**algo34.html**
+**algo35.html**
 
 ```html
 <!DOCTYPE html>
@@ -741,21 +757,21 @@ let num1 = parseInt(document.querySelector('#num1').value);
 
 **＜期待結果＞**　※1、2、3、4、-5 を入力して評価ボタンを押した場合
 
-<img src="./img/ex-34.png" width="600">
+<img src="./img/ex-35.png" width="600">
 
 <br><br>
 
-[解答例](./ans/algo34.html)
+[解答例](./ans/algo35.html)
 
 <br><br>
 
-### 演習35（algo35.html）
+### 演習36（algo36.html）
 
 テキストボックスにフルーツ名を入力し追加ボタンを押したら、フルーツ一覧（ulタグ）に入力したフルーツ名を追加表示してください。フルーツ名が未入力の場合は一覧に追加しません。
 
 <br>
 
-**algo35.html**
+**algo36.html**
 
 ```html
 <!DOCTYPE html>
@@ -788,10 +804,10 @@ let num1 = parseInt(document.querySelector('#num1').value);
 
 **＜期待結果＞**
 
-<img src="./img/ex-35.png" width="600">
+<img src="./img/ex-36.png" width="600">
 
 <br><br>
 
-[解答例](./ans/algo35.html)
+[解答例](./ans/algo36.html)
 
 <br><br>
